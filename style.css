@@ -1,0 +1,288 @@
+body{
+	text-align: center;
+
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+header {
+	background-image: url(images/bpic.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 110vh;
+	margin: 0;
+
+}
+
+/*Styling the nav bar*/
+nav{
+	width: 100%;
+	height: 90px;
+	background: steelblue;
+	margin: 0;
+	z-index: 10;
+	position: fixed;
+	opacity: 90%;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 33px;
+	margin-right: 50px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px transparent;
+	padding: 9px 20px;
+	font-size: 18px;
+}
+
+/*The color of an element changes when the cursor hovers over it*/
+
+.main a:link {
+  color: whitesmoke;
+}
+
+.main a:hover{
+	color: skyblue;
+	transition: 0.4s ease;
+}
+
+
+.logo{
+	height: 65px;
+	float: left;
+	margin: 15px 35px ;
+}
+
+/*The text is being positioned to the left part*/
+.MHW {
+  position: fixed;
+	color: black;
+	padding-left: 85px;
+	padding-top: 210px;
+	font-size: 29px;
+	font-family: verdana;
+}
+
+/*The text is being positioned to the left part*/
+.goal p{
+	text-align: left;
+	border: solid transparent;
+	margin-right: 800px;
+	margin-left: 85px;
+	margin-top: 240px ;
+	margin-bottom: 10px;
+	position: fixed;
+	font-size: 18px;
+}
+
+/*The text is being positioned to the left part*/
+.goal .pop{
+	text-align: left;
+	border: solid transparent;
+	margin-right: 800px;
+	margin-left: 85px;
+	margin-top: 380px ;
+	margin-bottom: 10px;
+	position: fixed;
+}
+
+.JOIN {
+    position: fixed;
+      color: black;
+      padding-left: 85px;
+      padding-top: 360px;
+      font-size: 29px;
+      font-family: verdana;
+  }
+
+/*The link "learn more" is being styled, and it is positioned under the main text/content*/
+.LM{
+	text-align: left;
+	border: 2.5px solid black;
+	border-radius: 15px;
+	padding: 10px 35px;
+	margin-right: 800px;
+	margin-left:85px;
+	margin-top: 470px ;
+	margin-bottom: 10px;
+	position: fixed;
+}
+
+/*The learn more button is being styled. It changes color when hovered on*/
+.LM a{
+	text-decoration: none;
+	color: black;
+}
+
+.LM a:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+
+/*LOG IN FORM*/
+.container{
+    border: solid white ;
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 880px;
+    margin-top: 140px;
+    text-align: center;
+	position: fixed;
+}
+
+.container h1{
+	padding-top: 18px;
+	padding-bottom: 15px;
+}
+
+#error{
+	padding-bottom: 8px;
+}
+
+#username{
+    width: 250px;
+    height: 30px;
+	padding-bottom: 5px;
+}
+
+#password{
+    width: 250px;
+    height: 30px;
+	padding-bottom: 5px;
+	
+}
+
+#username:hover{
+    background-color: rgb(215, 225, 234);
+}
+
+#password:hover{
+    background-color: rgb(215, 225, 234);
+}
+
+#labelu{
+	font-size: 18px;
+}
+
+#labelp{
+	font-size: 18px;
+}
+
+#loginb{
+    margin-top: 20px;
+    padding: 13px 25px;
+    background-color: steelblue;
+    border: steelblue;
+    font-size: 16px;
+    color: aliceblue;
+	border-radius: 10px;
+}
+
+#link{
+    text-decoration: none;
+    color: steelblue;
+    text-align: left;
+    font-size: 17px ;
+    margin-left: -110px;
+}
+
+
+
+/*FOOTER*/
+footer{
+	height: 195px;
+	background-color: black;
+	color: white;
+	padding-top: 25px;
+	text-align: center;
+}
+
+footer p {
+ font-size: 13px;
+ padding: 0px 210px;
+}
+
+/*image sprites. the color of the image sprites change when hovered on*/
+
+.socmed a{
+	margin-left: 4px;
+}
+
+.socmed{
+	align-content: center;
+	margin-right: 690px;
+	display: flex;
+}
+
+.socmed #fb {
+  height: 40px;
+  width: 80px;
+  background: url(images/sprite4.png) -16px -75px/ 750px 210px;
+}
+
+.socmed #fb:hover{
+	height: 40px;
+  width: 40px;
+  background: url(images/sprite4.png) -16px -151px/ 750px 210px;
+}
+
+
+.socmed #yt {
+  height: 40px;
+  width: 40px;
+  background: url(images/sprite4.png) -696px -75px/ 750px 210px;
+}
+
+.socmed #yt:hover{
+	height: 40px;
+  width: 40px;
+  background: url(images/sprite4.png) -696px -151px/ 750px 210px;
+}
+
+.socmed #twitter {
+  height: 40px;
+  width: 40px;
+  background: url(images/sprite4.png) -560px -75px/ 750px 210px;
+}
+
+.socmed #twitter:hover{
+	height: 40px;
+  width: 40px;
+  background: url(images/sprite4.png) -560px -151px/ 750px 210px;
+}
+
+.copyright_address{
+	padding-top: 82px;
+}
+
+.copyright_address h2{
+	margin-top: 8px;
+}
+
+#p1{
+	font-size: 12.5px;
+}
+
+#p2{
+	font-size: 11px;
+	margin-top: 2px;
+	color: rgb(168, 161, 161);
+}
